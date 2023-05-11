@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="sticky">
+
+    <!-- ==================================
+              Header Section 
+    ====================================-->
+    <header class="header">
+        <a href="/portfolio.html"><img src="images/logo2.jpeg" alt="Our Main Logo" class="logo"></a>
+
+        <!-- ==================================
+              Navbar Section 
+        ====================================-->
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/portfolio.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/portfolio_page.html" class="navbar-link portfoio-link">Portfoio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ==================================
+              Contact Us Section 
+    ====================================-->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container form">
+            <form action="https://formspree.io/f/mqkonqge" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" name="name" placeholder="Name" id="name" required autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="demo@gmail.com" id="email" required
+                            autocomplete="off">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject" required min="10"
+                        autocomplete="off">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <input type="textarea" name="name" id="textarea" cols="30" row="10" required min="20"
+                        autocomplete="off">
+                </div>
+
+                <div>
+                    <input type="submit" name="Send Message" id="submit" class="btn">
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================================
+              Freelancing Section 
+    ====================================-->
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="freelancing">I am <span>available</span> for freelancing</h2>
+            <a href="contact.html" class="btn freelancing-btn">HIRE ME</a>
+        </div>
+    </section>
+
+    <!-- ==================================
+              Footer Section 
+    ====================================-->
+    <footer class="section-footer section footer">
+        <div class="container grid grid-three-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    This page is about Sneha Gupta's portfolio page.
+                </p>
+            </div>
+            <!--  -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!--  -->
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p><span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>Bhopal, India</p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:+916266258679">6266258679</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mailto:sneha280904@gmail.com">sneha280904@gmail.com</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </span>
+                            <a href="https://www.linkedin.com/in/sneha-gupta-a78839261/">https://www.linkedin.com/in/sneha-gupta-a78839261/</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="f-credits">
+            <p>Made by Sneha</p>
+        </div>
+    </footer>
+    <!-- <div class="scrollToTop">
+        <ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>
+    </div> -->
+
+</body>
+
+</html>
