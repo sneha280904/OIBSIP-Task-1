@@ -1,48 +1,67 @@
 
 
-# OIBSIP-Task-1
+# Weather Forecast Application
 
-This repository contains the solution for **Task 1** of the Oasis Infobyte Internship Program. The task involves designing and developing a **responsive landing page** using basic web technologies.
+A Python-based application that provides current weather information for a specified city using the OpenWeatherMap API. This project was developed as **Task 1** for the **Oasis Infobyte Website Development and Designing Internship**, focusing on integrating APIs and presenting data in a user-friendly format.
 
-## Project Description
+## 🌦️ Features
 
-The landing page is a static web page built with HTML and CSS. It is designed to be visually appealing, responsive across devices, and showcases front-end development skills including layout design, styling, and content organization.
+- **Real-time Weather Data**: Fetches current weather details including temperature, humidity, and weather description.
+- **User Input**: Allows users to input any city name to retrieve weather information.
+- **Simple Interface**: Command-line interface for straightforward interaction. ([paraschadha2052/Python-Weather-App - GitHub](https://github.com/paraschadha2052/Python-Weather-App?utm_source=chatgpt.com))
 
-## Features
+## 🛠️ Technologies Used
 
-- Responsive design that adjusts to various screen sizes
-- Structured layout with sections like header, about, services, and contact
-- Custom styling with CSS
-- Navigation bar for easy section access
-- Smooth scrolling and clean interface
+- **Python**: Core programming language for the application.
+- **OpenWeatherMap API**: Source for real-time weather data. ([Metview](https://en.wikipedia.org/wiki/Metview?utm_source=chatgpt.com))
 
-## Technologies Used
+## 📁 Project Structure
 
-- HTML5
-- CSS3
 
-## How to View
 
-1. Clone the repository:
+
+```plaintext
+Weather-Forecast-Python/
+├── weather_forecast.py          # Main Python script to run the application
+├── Weather Forecast Application in Python.docx  # Project documentation
+├── templates/                   # Directory for HTML templates (if any)
+├── .vscode/                     # Visual Studio Code settings
+└── README.md                    # Project documentation
+```
+
+
+
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**:
+
    ```bash
-   git clone https://github.com/sneha280904/OIBSIP-Task-1.git
+   git clone https://github.com/sneha280904/Weather-Forecast-Python.git
+   cd Weather-Forecast-Python
    ```
 
-2. Navigate into the project directory:
+
+
+2. **Install Dependencies**:
+
+   Ensure you have Python installed. Install the required libraries using pip:
+
    ```bash
-   cd OIBSIP-Task-1
+   pip install requests
    ```
 
-3. Open `index.html` in your web browser:
-   - Double-click the file
-   - Or right-click and select "Open with" your preferred browser
 
-## File Structure
 
-```
-OIBSIP-Task-1/
-│
-├── index.html       # Main HTML file for the landing page
-├── style.css        # CSS file for styling the page
-└── README.md        # Project documentation
-```
+3. **Obtain OpenWeatherMap API Key**:
+
+   - Sign up at [OpenWeatherMap](https://openweathermap.org/api) to get a free API key.
+   - Replace `'YOUR_API_KEY'` in `weather_forecast.py` with your actual API key.
+
+4. **Run the Application**:
+
+   ```bash
+   python weather_forecast.py
+   ```
+
+
