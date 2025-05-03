@@ -59,7 +59,7 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
 * **Datetime module** – For formatting time-based forecasts.
 * **Geopy / geocoder** – For converting city names into coordinates if needed.
 
-### 🖥️ **Frontend/UI (if applicable)**
+### 🖥️ **Frontend/UI **
 
 * **HTML/CSS/JS** – Basic web front for Flask routes.
 * **Jinja2 Templating** – Built-in with Flask for dynamic HTML rendering.
