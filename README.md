@@ -14,6 +14,7 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
 1. Enter the location (city or coordinates) where you want the weather information. 📍
 2. The app fetches data from weather APIs and gives you real-time updates. ⏰
 3. View the current weather, temperature, humidity, wind speed, and more! 🌬️
+4. 7 Days Future Forecast.
 
 ## Installation 🏗️
 
@@ -34,7 +35,7 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
 
 4. Run the application:
     ```
-    python weather_app.py
+    python app.py
     ```
 
 ## Usage 📈
