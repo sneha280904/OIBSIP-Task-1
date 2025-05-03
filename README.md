@@ -37,6 +37,36 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
     python app.py
     ```
 
+---
+
+## 🧠 **Tech Stack for Py-Weather-Cast**
+
+### 🐍 **Backend**
+
+* **Python 3.10+** – Core programming language.
+* **Flask** – Lightweight web framework to handle routes and API requests.
+* **Requests** – For making HTTP requests to external weather APIs like OpenWeatherMap, WeatherAPI, or Weatherstack.
+
+### 🔮 **Weather API (Third-party Service)**
+
+* **OpenWeatherMap API** 
+* **WeatherAPI.com** 
+* **Weatherstack API**
+
+### 🧪 **Data Handling & Processing**
+
+* **JSON** – For parsing API responses.
+* **Datetime module** – For formatting time-based forecasts.
+* **Geopy / geocoder** – For converting city names into coordinates if needed.
+
+### 🖥️ **Frontend/UI (if applicable)**
+
+* **HTML/CSS/JS** – Basic web front for Flask routes.
+* **Jinja2 Templating** – Built-in with Flask for dynamic HTML rendering.
+* **Bootstrap** – For responsive design.
+
+---
+
 ## Usage 📈
 
 - Open the app, type in your location (city name or coordinates), and hit Enter! 🌎
