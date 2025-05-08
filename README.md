@@ -1,5 +1,7 @@
 # Py-Weather-Cast 🌤️🌧️
 
+Note: The source code for this project has been made private intentionally.
+
 Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whether you’re planning your day or traveling, this tool provides real-time weather updates and forecasts so you can always stay prepared. 🌍
 
 ## Features ✨
