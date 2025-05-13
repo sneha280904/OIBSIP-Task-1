@@ -1,0 +1,5 @@
+## <---------- Flask - Web Framework ---------->
+Flask                  # A lightweight web framework for building web applications in Python.
+
+## <---------- dotenv - Environment Variable Loader ---------->
+python-dotenv          # Loads environment variables from a .env file into Python; useful for configuration management.
