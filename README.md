@@ -4,6 +4,8 @@ Note: The source code for this project has been made private intentionally.
 
 Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whether you’re planning your day or traveling, this tool provides real-time weather updates and forecasts so you can always stay prepared. 🌍
 
+---
+
 ## Features ✨
 
 - **Real-Time Weather Data**: Get up-to-the-minute weather updates from reliable weather APIs. 🌦️
@@ -17,27 +19,32 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
 2. The app fetches data from weather APIs and gives you real-time updates. ⏰
 3. View the current weather, temperature, humidity, wind speed, and more! 🌬️
 
-## Installation 🏗️
+---
 
-1. Clone the repository:
-    ```
-    git clone https://github.com/yourusername/Py-Weather-Cast.git
-    ```
+## **Project Directory Structure**
 
-2. Navigate into the project directory:
-    ```
-    cd Py-Weather-Cast
-    ```
-
-3. Install the necessary dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-
-4. Run the application:
-    ```
-    python app.py
-    ```
+PY-WEATHER-CAST
+│
+├── static/
+│   └── style.css
+│
+├── templates/
+│   └── index.html
+│
+├── weather/
+│   ├── controller/
+│   │   └── controller.py
+│   │
+│   └── service/
+│       └── service.py
+│
+├── .env
+├── .gitignore
+├── app.py
+├── README.md
+├── requirements.txt
+├── homepage.png
+├── updatepage.png
 
 ---
 
@@ -74,17 +81,7 @@ Welcome to **Py-Weather-Cast**, the Python-powered weather forecasting app! Whet
 - Open the app, type in your location (city name or coordinates), and hit Enter! 🌎
 - The app will display the current weather, as well as a forecast for upcoming hours or days. 🌤️
 
-## Contributing 🤝
-
-We are open to any contributions to improve **Py-Weather-Cast**! If you want to help enhance the project, just follow these steps:
-
-1. Fork the repository. 🍴
-2. Create a new branch (`git checkout -b feature-name`). 🌱
-3. Make the necessary changes and commit them (`git commit -am 'Add new feature'`). 📝
-4. Push your changes to your forked repository (`git push origin feature-name`). 🚀
-5. Create a pull request to merge your updates into the main branch. 🔄
-
-We value your input, and every contribution counts! 🙌
+---
 
 ## Feedback & Issues 🗣️
 
